@@ -73,7 +73,7 @@ PROFILING=        # Enable gprof profiling support.
 
 ################################################################################
 pkgname="emacs-native-comp-git"
-pkgver=28.0.50.146220
+pkgver=28.0.50.146884
 pkgrel=1
 pkgdesc="GNU Emacs. Development native-comp branch."
 arch=('x86_64' )
@@ -84,11 +84,11 @@ makedepends=('git')
 provides=('emacs' 'emacs-seq')
 conflicts=('emacs' 'emacs26-git' 'emacs-27-git' 'emacs-git' 'emacs-seq')
 replaces=('emacs26-git' 'emacs27-git' 'emacs-git' 'emacs-seq')
-source=("emacs-git::git://git.savannah.gnu.org/emacs.git#branch=feature/native-comp")
+source=("emacs-git::git://github.com/YorkZ/emacs.git#branch=york-native-comp")
+md5sums=('SKIP')
 # If Savannah access is blocked for reasons, use Github instead.
 # Edit the config file of your local repo copy as well.
 #source=("emacs-git::git://github.com/emacs-mirror/emacs.git")
-md5sums=('SKIP')
 ################################################################################
 
 ################################################################################
